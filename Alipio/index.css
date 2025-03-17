@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-color: #efe5d6; 
+    font-family: 'Helvetica World', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 20px 50px;
+    border-bottom: 2px solid #212529 ;
+    text-align: left;
+}
+
+.container {
+    padding: 50px;
+    margin-left: 150px; /* Align to the left */
+    align-items: flex-start; /* Move everything to the left */
+    margin-left: 35px; /* Adjust this value as needed */
+    width: 90%; /* Reduce width slightly to prevent overflow */
+}
+
+.subject {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c757d;
+    margin-bottom: 0px; /* Reduce space between subject and title */
+}
+
+.title {
+    font-family: 'Georgia Pro', serif;
+    font-size: 100px;
+    font-weight: 700;
+    color: #212529;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;  /* Allows wrapping */
+    gap: 10px;
+    margin-bottom: 30px; /* Space between buttons and photos */
+}
+
+.button {
+    text-align: center;
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #212529;
+    border: 2px solid #212529;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #212529;
+    color: white;
+}
+
+.column {
+    display: flex;
+    flex-direction: column; /* Stacks Bio and Photo Dump */
+    gap: 10px; /* Space between stacked buttons */
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: center; /* Center images */
+    gap: 20px; /* Space between images */
+    margin-top: 20px;
+}
+
+.photo-gallery img {
+    width: 500px;  /* Adjust width to match the reference */
+    height: 400px; /* Adjust height for correct aspect ratio */
+    object-fit: cover; /* Maintain proper cropping */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Keep shadow for a clean look */
+}
+
+.video-section {
+    display: flex;
+    justify-content: center; /* Centers the video */
+    align-items: center;
+    padding: 20px 0;
+}
+
+.welcome-video {
+    width: 80%; /* Adjust the width to fit nicely */
+    max-width: 600px; /* Limits size on larger screens */
+    border-radius: 15px; /* Optional: Rounds the edges */
+}
+
