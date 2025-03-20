@@ -1,6 +1,6 @@
 body {
-    font-family: 'Helvetica', sans-serif;
-    background-color: #efe5d6;
+    font-family: Helvetica, sans-serif;
+    background-color: #f9f5eb;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -29,9 +29,9 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     color: #444;
-    background-color:#efe5d6;
+    background-color: #efe5d6;;
     padding: 10px;
     border-radius: 5px;
 }
@@ -40,7 +40,7 @@ section {
     margin: 20px;
     padding: 20px;
     border: 1px solid #ddd;
-    background-color: #fff;
+    background-color: #efe5d6;
     border-radius: 10px;
 }
 
@@ -56,6 +56,7 @@ footer {
     background-color: #ffcc99;
     color: #333;
 }
+
 /* Page Navigation Bar */
 .page-nav {
     background-color: #efe5d6;
@@ -100,7 +101,7 @@ footer {
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
-    color: #efe5d6;
+    color: #212529;
     border: 2px solid #212529;
     border-radius: 50px;
     transition: all 0.3s ease-in-out;
@@ -109,13 +110,12 @@ footer {
     left: 20px;
 }
 
-
 .button:hover {
     background-color: #212529;
     color: white;
 }
 .button-container {
-    background-color: #efe5d6;
+    background-color: #f9f5eb;
     text-align: left;
     bottom: 20px;
     left: 20px;
