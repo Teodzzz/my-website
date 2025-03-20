@@ -14,6 +14,41 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Page Navigation Bar */
+.page-nav {
+    background-color: #efe5d6;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.page-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.page-nav ul li {
+    display: inline;
+}
+
+.page-nav ul li a {
+    font-family: 'Helvetica', sans-serif;
+    text-decoration: none;
+    color: #212529;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.page-nav ul li a:hover {
+    background-color: white;
+}
 /* Header Section */
 .resume-header {
     display: flex;
