@@ -1,0 +1,123 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #f9f5eb;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #efe5d6;
+    padding: 20px;
+    font-size: 24px;
+}
+
+h1, h2 {
+    font-family: 'Georgia Pro', serif;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #444;
+    background-color: #efe5d6;;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #efe5d6;
+    border-radius: 10px;
+}
+
+audio, video {
+    margin-top: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffcc99;
+    color: #333;
+}
+
+/* Page Navigation Bar */
+.page-nav {
+    background-color: #efe5d6;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.page-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.page-nav ul li {
+    display: inline;
+}
+
+.page-nav ul li a {
+    font-family: 'Helvetica', sans-serif;
+    text-decoration: none;
+    color: #212529;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.page-nav ul li a:hover {
+    background-color: white;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #212529;
+    border: 2px solid #212529;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    text-align: left;
+    bottom: 20px;
+    left: 20px;
+}
+
+
+.button:hover {
+    background-color: #212529;
+    color: white;
+}
+.button-container {
+    background-color: #f9f5eb;
+    text-align: left;
+    bottom: 20px;
+    left: 20px;
+}
