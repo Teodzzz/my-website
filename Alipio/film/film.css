@@ -31,7 +31,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
     color: #444;
-    background-color: #ffe6cc;
+    background-color:#efe5d6;
     padding: 10px;
     border-radius: 5px;
 }
@@ -100,7 +100,7 @@ footer {
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
-    color: #212529;
+    color: #efe5d6;
     border: 2px solid #212529;
     border-radius: 50px;
     transition: all 0.3s ease-in-out;
@@ -115,7 +115,7 @@ footer {
     color: white;
 }
 .button-container {
-    background-color: #f9f5eb;
+    background-color: #efe5d6;
     text-align: left;
     bottom: 20px;
     left: 20px;
